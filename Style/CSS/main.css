@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "fonts.css";
 
 * {
   box-sizing: border-box;
@@ -8,12 +9,19 @@
 
 :root {
   --textblock-width: 620px;
+  --line-height: 20px;
 }
 
 body {
-  background-color: pink;
+  background-color: white;
   margin: 0;
   width: 100%;
+}
+
+#po {
+  width: calc(100% + 56px);
+  transform: translateX(-28px);
+  margin: var(--line-height) 0 var(--line-height) 0;
 }
 
 main {
@@ -22,63 +30,88 @@ main {
   position: relative;
   left: calc((100vw - var(--textblock-width)) / 2);
   background-color: white;
-  padding: 0;
   padding: 28px;
 }
 
+h1 {
+  font-family: "oranienbaum", serif;
+  font-size: 68px;
+  color: blue;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
 p:first-of-type {
-  margin: 0;
+  margin-top: 0;
 }
 
 p {
-  line-height: 20px;
-  margin-bottom: 20px;
+  line-height: var(--line-height);
+  margin-bottom: var(--line-height);
+
 }
 
 @media (min-width: 1681px) {
   p {
-    color: red;
+
   }
 }
 
-@media (min-width: 1441 and max-width: 1680) {
+@media (max-width: 1680px) {
   p {
-    color: orange;
+
   }
 }
 
-@media (min-width: 1367; max-width: 1440) {
+@media (max-width: 1440px) {
   p {
-    color: yellow;
+
   }
 }
 
-@media (min-width: 1281; max-width: 1366) {
+@media (max-width: 1366px) {
   p {
-    color: green;
+
   }
 }
 
-@media (min-width: 1024; max-width: 1280) {
+@media (max-width: 1280px) {
   p {
-    color: blue;
+
   }
 }
 
-@media (min-width: 768; max-width: 1023) {
+/* IPAD LANDSCAPE */
+
+@media (max-width: 1024px) {
   p {
-    color: magenta;
+
   }
 }
 
-@media (min-width: 476; max-width: 767) {
+/* IPAD PORTRAIT */
+
+@media (max-width: 767px) {
+  :root {
+    --textblock-width: 80vw;
+  }
+
   p {
-    color: purple;
+
   }
 }
 
-@media (min-width: 320; max-width: 475) {
+/* IPHONE */
+
+@media (max-width: 475px) {
+  :root {
+    --textblock-width: 100vw;
+  }
+
+  main {
+    left: 0;
+  }
+
   p {
-    color: gray;
   }
 }
