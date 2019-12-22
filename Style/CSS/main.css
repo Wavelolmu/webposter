@@ -1,0 +1,84 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-smoothing: grayscale;
+}
+
+:root {
+  --textblock-width: 620px;
+}
+
+body {
+  background-color: pink;
+  margin: 0;
+  width: 100%;
+}
+
+main {
+  display: block;
+  width: var(--textblock-width);
+  position: relative;
+  left: calc((100vw - var(--textblock-width)) / 2);
+  background-color: white;
+  padding: 0;
+  padding: 28px;
+}
+
+p:first-of-type {
+  margin: 0;
+}
+
+p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1681px) {
+  p {
+    color: red;
+  }
+}
+
+@media (min-width: 1441 and max-width: 1680) {
+  p {
+    color: orange;
+  }
+}
+
+@media (min-width: 1367; max-width: 1440) {
+  p {
+    color: yellow;
+  }
+}
+
+@media (min-width: 1281; max-width: 1366) {
+  p {
+    color: green;
+  }
+}
+
+@media (min-width: 1024; max-width: 1280) {
+  p {
+    color: blue;
+  }
+}
+
+@media (min-width: 768; max-width: 1023) {
+  p {
+    color: magenta;
+  }
+}
+
+@media (min-width: 476; max-width: 767) {
+  p {
+    color: purple;
+  }
+}
+
+@media (min-width: 320; max-width: 475) {
+  p {
+    color: gray;
+  }
+}
