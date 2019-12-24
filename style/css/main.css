@@ -116,7 +116,7 @@ p {
 #back {
   position: absolute;
   width: 100%;
-  opacity: 0.0;
+  opacity: 0.2;
 }
 
   #frame {
@@ -124,13 +124,8 @@ p {
     height: 100%;
     top: 0px;
     z-index: 100;
+    width: 100%;
   }
-
-.first_slide,
-.second_slide,
-#co {
-  transform: translateY(0px);
-}
 
   .first_slide {
      animation: firstslide 4s ease-in infinite;
@@ -256,7 +251,7 @@ p {
     font-family: "oranienbaum";
     font-size: 84px;
     position: absolute;
-    left: 27.5%;
+    left: 26.7%;
     top: 624px;
     transform: scaleX(1.35);
     color: black;
@@ -265,7 +260,7 @@ p {
     font-family: "engry";
     font-size: 136px;
     position: absolute;
-    left: 32.2%;
+    left: 31.3%;
     top: 632px;
     color: black;
   }
@@ -464,7 +459,65 @@ p {
 }
 
 .fifth_slide {
-  transform: translateY(-1200px);
+  transform: translateY(-1180px);
+}
+
+.blackp {
+  color: black;
+  font-family: "engry";
+  font-size: 24px;
+}
+
+.sixth {
+  position: absolute;
+  transform: translateY();
+  top: 1956px;
+  z-index: 200;
+}
+
+#then {
+  position: absolute;
+  left: 88px;
+}
+
+#go {
+  position: absolute;
+  left: 224px;
+  top: 68px;
+}
+
+#to {
+  position: absolute;
+  left: 424px;
+  top: 172px;
+}
+
+#o2 {
+  vertical-align: -50%;
+}
+#o3 {
+  vertical-align: 90%;
+}
+#o4 {
+  vertical-align: 80%;
+}
+#o5 {
+  vertical-align: -50%;
+}
+#o6 {
+  vertical-align: -80%;
+}
+#o7 {
+  vertical-align: -50%;
+}
+#o8 {
+  vertical-align: -130%;
+}
+#o9 {
+  vertical-align: -180%;
+}
+#o10 {
+  vertical-align: -230%;
 }
 
 #goat {
@@ -484,13 +537,16 @@ p {
     transform: translate(260px,-70px);
   }
   25% {
-    transform: translate(320px,-100px);
+    transform: translate(300px,-100px);
   }
   50% {
     transform: translate(380px,-85px);
   }
   75% {
     transform: translate(420px,-110px);
+  }
+  90% {
+    transform: translate(460px,-80px);
   }
   100% {
     transform: translate(920px,-290px);
@@ -512,6 +568,39 @@ p {
       transform: translate(900px, -500px) rotate(45deg);
     }
   }
+
+#grad {
+  position: absolute;
+  z-index: 101;
+  top: 1960px;
+  bottom: 0px;
+  opacity: 0;
+}
+
+.finale {
+  z-index: 102;
+}
+
+.sabbath {
+  position: absolute;
+  top: 3600px;
+  left: 58px;
+}
+
+#sh1 {
+  position: absolute;
+  font-family: "Engry";
+  font-size: 60px;
+  color: black;
+  transform: translate(-30px, -20px) scale(0.8, 1.8);
+}
+#a2 {
+  position: absolute;
+  font-family: "le murmure";
+  font-size: 80px;
+  color: black;
+  transform: translate(44px, 0px) scale(1, 1.45);
+}
 
 @media (min-width: 1681px) {
   p {
