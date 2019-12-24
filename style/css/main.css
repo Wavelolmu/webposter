@@ -518,6 +518,13 @@ p {
 }
 #o10 {
   vertical-align: -230%;
+  animation: jig 1s ease-in infinite;
+}
+
+@keyframes jig {
+  33% {
+    transform: translateY(5px);
+  }
 }
 
 #goat {
