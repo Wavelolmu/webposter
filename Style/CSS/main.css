@@ -30,6 +30,7 @@ nav {
   ul {
     display: flex;
     font-family: "neue Machina";
+    list-style: none;
   }
 
   li {
@@ -58,6 +59,7 @@ nav {
     vertical-align: bottom;
     display: inline-block;
     padding-top: 7px;
+    color: red;
   }
 
   a:visited {
@@ -87,6 +89,7 @@ h1 {
   margin-bottom: 20px;
   margin-top: 72px;
   line-height: 48px;
+  font-weight: normal;
 }
 
 p:first-of-type {
