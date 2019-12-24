@@ -111,6 +111,7 @@ p {
   overflow-y: scroll;
   color: red !important;
   overflow-x: hidden;
+  padding: 0;
 }
 
 #back {
@@ -193,7 +194,7 @@ p {
     height: 246px;
     transform: scaleX(-1) rotate(8deg);
     left: 59.2%;
-    top: 106px;
+    top: 110px;
     animation: hand 4s ease-in infinite;
   }
   @keyframes hand {
@@ -201,10 +202,10 @@ p {
       transform: scaleX(-1) rotate(8deg);
     }
     55% {
-      transform: scaleX(-1) rotate(8deg) rotate(194deg) translate(-24px, -12px);
+      transform: scaleX(-1) rotate(8deg) rotate(194deg) translate(-24px, -16px);
     }
     85% {
-      transform: scaleX(-1) rotate(8deg) rotate(194deg) translate(-24px, -12px);
+      transform: scaleX(-1) rotate(8deg) rotate(194deg) translate(-24px, -16px);
     }
     99.9% {
       transform: scaleX(-1) rotate(8deg);
@@ -307,8 +308,7 @@ p {
     color: black;
   }
   #second_ii {
-    font-family: "blacker pro";
-    font-style: italic;
+    font-family: "blacker pro display";
     font-size: 68px;
     position: absolute;
     left: 28.3%;
@@ -387,9 +387,9 @@ p {
 }
 
   .s1 {vertical-align: -100%;}
-  .s2 {vertical-align: -100%;}
+  .s2 {vertical-align: -80%;}
   .s3 {vertical-align: -50%;}
-  .s4 {vertical-align: -25%;}
+  .s4 {vertical-align: -20%;}
   .s6 {vertical-align: 35%;}
   .s7 {vertical-align: 50%;}
 
@@ -397,8 +397,7 @@ p {
     font-size: 52px;
     color: #00fcbd;
     position: absolute;
-    font-family: "blacker pro";
-    font-style: italic;
+    font-family: "blacker pro display";
     line-height: 44px;
     transform: rotate(-10deg);
     text-align: right;
@@ -611,16 +610,14 @@ p {
 }
 #b2 {
   position: absolute;
-  font-family: "blacker pro";
-  font-stretch: condensed;
+  font-family: "blacker pro condensed";
   font-size: 90px;
   color: black;
   transform: translate(64px, -4px) scale(1, 1.8);
 }
 #a12 {
   position: absolute;
-  font-family: "blacker pro";
-  font-weight: blow;
+  font-family: "blacker pro titling";
   font-size: 68px;
   color: black;
   transform: translate(112px, -16px) scale(1.5, 1.1);
@@ -656,16 +653,14 @@ p {
 }
 #b3 {
   position: absolute;
-  font-family: "blacker pro";
-  font-weight: bold;
+  font-family: "blacker pro titling";
   font-size: 90px;
   color: black;
   transform: translate(104px, 182px) scale(0.63, 0.91);
 }
 #b4 {
   position: absolute;
-  font-family: "blacker pro";
-  font-stretch: condensed;
+  font-family: "blacker pro condensed";
   font-size: 90px;
   color: black;
   transform: translate(158px, 230px) scale(1.2, 0.6);
@@ -686,8 +681,7 @@ p {
 }
 #n2{
   position: absolute;
-  font-family: "blacker pro";
-  font-style: italic;
+  font-family: "blacker pro display";
   font-size: 52px;
   color: black;
   transform: translate(367px, 199px) scale(1.05, 1.3);
