@@ -116,14 +116,14 @@ p {
 #back {
   position: absolute;
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.0;
 }
 
   #frame {
     position: sticky;
     height: 100%;
     top: 0px;
-    z-index: 3;
+    z-index: 100;
   }
 
 .first_slide,
@@ -407,6 +407,7 @@ p {
     line-height: 44px;
     transform: rotate(-10deg);
     text-align: right;
+    z-index: 2;
   }
 
   #first_green {
@@ -442,7 +443,74 @@ p {
   #vacuum2,
   #vacuum3 {
     position: absolute;
-    display: none;
+    animation: vacuum 3.2s ease-in infinite;
+    transform: rotate(45deg);
+    height: 200px;
+    z-index: 1;
+    mix-blend-mode: darken;
+  }
+
+#vacuum1 {
+  top: 2100px;
+  left: -160px;
+}
+
+#vacuum2 {
+  top: 2160px;
+  left: -160px;
+  transform: scale(0.9);
+  animation-delay: 0.6s;
+  animation-duration: 2.9s !important;
+}
+
+.fifth_slide {
+  transform: translateY(-1200px);
+}
+
+#goat {
+  position: absolute;
+  top: 2300px;
+  left: -180px;
+  height: 200px;
+  animation: goat 3s ease-in infinite;
+}
+
+@keyframes goat {
+
+  10% {
+    transform: translate(220px,-90px);
+  }
+  15% {
+    transform: translate(260px,-70px);
+  }
+  25% {
+    transform: translate(320px,-100px);
+  }
+  50% {
+    transform: translate(380px,-85px);
+  }
+  75% {
+    transform: translate(420px,-110px);
+  }
+  100% {
+    transform: translate(920px,-290px);
+  }
+}
+
+#clean {
+  font-size: 60px;
+  top: 2380px;
+  left: 136px;
+}
+
+  @keyframes vacuum {
+    70% {
+      transform: rotate(45deg) ;
+    }
+
+    100% {
+      transform: translate(900px, -500px) rotate(45deg);
+    }
   }
 
 @media (min-width: 1681px) {
