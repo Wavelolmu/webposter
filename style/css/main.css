@@ -116,7 +116,7 @@ p {
 #back {
   position: absolute;
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.0;
 }
 
   #frame {
@@ -294,7 +294,7 @@ p {
     font-family: "le murmure";
     font-size: 80px;
     position: absolute;
-    left: 8.6%;
+    left: 9.9%;
     top: 712px;
     color: black;
   }
@@ -302,7 +302,7 @@ p {
     font-family: "engry";
     font-size: 104px;
     position: absolute;
-    left: 11.5%;
+    left: 12.8%;
     top: 728px;
     color: black;
   }
@@ -311,7 +311,7 @@ p {
     font-style: italic;
     font-size: 68px;
     position: absolute;
-    left: 27%;
+    left: 28.3%;
     top: 804px;
     color: black;
   }
@@ -319,7 +319,7 @@ p {
     font-family: "oranienbaum";
     font-size: 90px;
     position: absolute;
-    left: 34.8%;
+    left: 36.1%;
     top: 830px;
     color: black;
   }
@@ -572,9 +572,9 @@ p {
 #grad {
   position: absolute;
   z-index: 101;
-  top: 1960px;
+  top: 1980px;
   bottom: 0px;
-  opacity: 0;
+  opacity: 1;
 }
 
 .finale {
@@ -583,8 +583,9 @@ p {
 
 .sabbath {
   position: absolute;
-  top: 3600px;
-  left: 58px;
+  top: 2400px;
+  left: 66px;
+  z-index: 1000;
 }
 
 #sh1 {
@@ -601,6 +602,165 @@ p {
   color: black;
   transform: translate(44px, 0px) scale(1, 1.45);
 }
+#b2 {
+  position: absolute;
+  font-family: "blacker pro";
+  font-stretch: condensed;
+  font-size: 90px;
+  color: black;
+  transform: translate(64px, -4px) scale(1, 1.8);
+}
+#a12 {
+  position: absolute;
+  font-family: "blacker pro";
+  font-weight: blow;
+  font-size: 68px;
+  color: black;
+  transform: translate(112px, -16px) scale(1.5, 1.1);
+}
+#sh2 {
+  position: absolute;
+  font-family: "le murmure";
+  font-size: 100px;
+  color: black;
+  transform: translate(178px, -4px) scale(0.8, 0.91);
+}
+#tire2 {
+  position: absolute;
+  font-family: "blacker pro";
+  font-size: 90px;
+  color: black;
+  transform: translate(220px, -24px) scale(1, 1.8);
+}
+#s2 {
+  position: absolute;
+  font-family: "le murmure";
+  font-size: 180px;
+  color: black;
+  transform: translate(36px, 140px) scale(1, 1);
+}
+#u2 {
+  position: absolute;
+  font-family: "engry";
+  font-stretch: condensed;
+  font-size: 80px;
+  color: black;
+  transform: translate(64px, 210px) scale(0.7, 1);
+}
+#b3 {
+  position: absolute;
+  font-family: "blacker pro";
+  font-weight: bold;
+  font-size: 90px;
+  color: black;
+  transform: translate(104px, 182px) scale(0.63, 0.91);
+}
+#b4 {
+  position: absolute;
+  font-family: "blacker pro";
+  font-stretch: condensed;
+  font-size: 90px;
+  color: black;
+  transform: translate(158px, 230px) scale(1.2, 0.6);
+}
+#o22{
+  position: absolute;
+  font-family: "engry";
+  font-size: 90px;
+  color: black;
+  transform: translate(230px, 230px) scale(1.76, 0.66);
+}
+#t2 {
+  position: absolute;
+  font-family: "engry";
+  font-size: 120px;
+  color: black;
+  transform: translate(286px, 182px) scale(0.5, 1.65);
+}
+#n2{
+  position: absolute;
+  font-family: "blacker pro";
+  font-style: italic;
+  font-size: 52px;
+  color: black;
+  transform: translate(367px, 199px) scale(1.05, 1.3);
+}
+#i2{
+  position: absolute;
+  font-family: "le murmure";
+  font-size: 90px;
+  color: black;
+  transform: translate(410px, 148px) scale(1, 0.975);
+}
+#k2 {
+  position: absolute;
+  font-family: "engry";
+  font-size: 180px;
+  color: black;
+  transform: translate(390px, 32px) scale(0.45, 1.2);
+}
+.letters {
+  z-index: 1000;
+}
+#margo {
+  position: absolute;
+  top: 90px;
+  height: 212px;
+  transform: translate(330px, -70px);
+}
+#masha {
+  position: absolute;
+  top: 90px;
+  height: 242px;
+  transform: translate(146px, -72px);
+}
+#nastya {
+  position: absolute;
+  top: 90px;
+  height: 200px;
+  transform: translate(8px, -40px);
+}
+#final {
+  position: absolute;
+  height: 200px;
+  top: 2960px;
+  z-index: 1000;
+  left: 160px;
+}
+
+#regi {
+  position: absolute;
+  top: 2900px;
+  left: 60px;
+  z-index: 10000;
+}
+
+#na2 {
+  position: absolute;
+  top: 2970px;
+  left: 290px;
+  z-index: 10000;
+}
+
+#o31 {
+  vertical-align: -40%;
+}
+#o32 {
+  vertical-align: -80%;
+}
+#o33 {
+  vertical-align: -120%;
+}
+#o34 {
+  vertical-align: -160%;
+}
+#o35 {
+  vertical-align: -120%;
+}
+#o36 {
+  vertical-align: -80%;
+}
+
 
 @media (min-width: 1681px) {
   p {
