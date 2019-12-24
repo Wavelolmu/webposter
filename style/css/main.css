@@ -492,19 +492,19 @@ p {
 }
 
 #o2 {
-  vertical-align: -50%;
+  vertical-align: -40%;
 }
 #o3 {
   vertical-align: 90%;
 }
 #o4 {
-  vertical-align: 80%;
+  vertical-align: 70%;
 }
 #o5 {
   vertical-align: -50%;
 }
 #o6 {
-  vertical-align: -80%;
+  vertical-align: -70%;
 }
 #o7 {
   vertical-align: -50%;
@@ -610,7 +610,7 @@ p {
 }
 #b2 {
   position: absolute;
-  font-family: "blacker pro condensed";
+  font-family: "blacker pro bitch";
   font-size: 90px;
   color: black;
   transform: translate(64px, -4px) scale(1, 1.8);
@@ -646,7 +646,6 @@ p {
 #u2 {
   position: absolute;
   font-family: "engry";
-  font-stretch: condensed;
   font-size: 80px;
   color: black;
   transform: translate(64px, 210px) scale(0.7, 1);
@@ -660,7 +659,7 @@ p {
 }
 #b4 {
   position: absolute;
-  font-family: "blacker pro condensed";
+  font-family: "blacker pro bitch";
   font-size: 90px;
   color: black;
   transform: translate(158px, 230px) scale(1.2, 0.6);
